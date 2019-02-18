@@ -1,0 +1,28 @@
+
+
+
+
+
+
+######################### layout ###########################
+
+  AO   - |  ADC0                    GPIO16 / USER / WAKE  | -  D0 
+  RSV  - |                          GPIO5                 | -  D2 
+  RSV  - |                          GPIO4                 | -  D2 
+  SD3  - |  SDD3         / GPIO10   GPIO0 / FLASH         | -  D3 
+  SD2  - |  SDD2         / GPIO9    GPIO2 / TXD1          | -  D4 
+  SD1  - |  SDD1  / MOSI / GPIO8                          | -  3V3
+  CMD  - |  SDCMD / CS   / GPIO11                         | -  GND
+  SD0  - |  SDD0  / MISO / GPIO7    GPIO14        / HSCLK | -  D5 
+  CLK  - |  SDCLK / SCLK / GPIO6    GPIO12        / HMISO | -  D6 
+  GND  - |                          GPIO13 / RXD2 / HMOSI | -  D7 
+  3V3  - |                          GPIO15 / TXD2 / HCS   | -  D8 
+  EN   - |                          GPIO3  / RXD0         | -  RX 
+  RST  - |                          GPIO1  / TXD0         | -  TX 
+  GND  - |                                                | -  GND
+  Vin  - |                                                | -  3V3
+                 RST         USB         FLASH
+
+                
+#############################################################
+
